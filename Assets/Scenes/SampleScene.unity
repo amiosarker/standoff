@@ -769,10 +769,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currenttime: 0
-  starttime: 5
+  starttime: 1
   firepoint1: {fileID: 794380793}
   firepoint2: {fileID: 1305008928}
   firepoint3: {fileID: 1584843696}
+  rotateAmount: 90
+  player: {fileID: 1370630266}
+  enemy: {fileID: 794380793}
   bulletPrefab: {fileID: 6317214630907602198, guid: f5b26b864658e45c1af512f413a8358f, type: 3}
 --- !u!1 &282683501
 GameObject:
@@ -1709,8 +1712,8 @@ GameObject:
   - component: {fileID: 794380793}
   - component: {fileID: 794380794}
   m_Layer: 0
-  m_Name: fire point
-  m_TagString: Untagged
+  m_Name: firepoint
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,7 +1744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6b92863008847aa806a28677968e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateAmount: 0
+  rotateAmount: 270
+  player: {fileID: 1370630266}
+  enemy: {fileID: 794380793}
 --- !u!1 &823769290
 GameObject:
   m_ObjectHideFlags: 0
