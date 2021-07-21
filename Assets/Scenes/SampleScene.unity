@@ -745,7 +745,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246381805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 153a61773d1b745d696c7e62c8b3c1fe, type: 2}
   m_CullingMode: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   firepoint1: {fileID: 794380793}
   firepoint2: {fileID: 1305008928}
   firepoint3: {fileID: 1584843696}
-  rotateAmount: 90
+  rotateAmount: 0
   player: {fileID: 1370630266}
   enemy: {fileID: 794380793}
   bulletPrefab: {fileID: 6317214630907602198, guid: f5b26b864658e45c1af512f413a8358f, type: 3}
